@@ -1,0 +1,57 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+
+}
+nav{
+    background-color: blue;
+}
+.flex-container {
+    display: flex;
+
+}
+.flex-item1 {
+    flex: 20%;
+    background-color: blueviolet;
+}
+.flex-item2 {
+    flex: 80%;
+    background-color: brown;
+}
+ul{
+    list-style-type: none;
+}
+ li{
+    display: inline;
+    margin: 20px;
+    margin-left: 20px;
+ }
+  a{
+    color: azure;
+    
+    font-size: 20px;
+    font-weight: 400;
+    transition: 3s all;
+    text-decoration: none;
+  }
+ a:hover{
+    color: blue;
+    background-color: brown;
+  }
+  .slider{
+    height: 550px;
+    background-color: red;
+    animation-name: navbar;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes navbar {
+    from{
+        background-color: red;
+      }
+      to{
+        background-color: blue;
+      }
+  }
